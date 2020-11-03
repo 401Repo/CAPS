@@ -1,10 +1,15 @@
 'use strict';
 
-/*
-Everything lands here event wise:
- Manages the state of every package (ready for pickup, in transit, delivered, etc)
-Logs every event to the console with a timestamp and the event payload
-*/
+const io = require('socket.io')(5000);
+
+io.on('connection', (socket) => {
+  console.log(socket.id, ' socket id: we are connected');
+  socket.on('pickup', (payload) => {
+    console.log('new Pickup', payload);
+  });
+});
+
+// ok, lets change it for the demo socket tech
 
 // dependancies
 const chalk = require('chalk');
