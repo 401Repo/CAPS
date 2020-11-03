@@ -6,6 +6,6 @@ CAPS Phase 1: Begin the build of an application for a company called CAPS - The 
 
 ### UML
 
-![uml](https://github.com/401Repo/authentication/blob/main/Image%20from%20iOS%20(3).jpg)
+![uml](https://github.com/401Repo/CAPS/blob/main/Image%20from%20iOS%20(4).jpg?raw=true)
 
 
