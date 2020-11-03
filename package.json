@@ -1,0 +1,28 @@
+{
+  "name": "CAPS",
+  "version": "1.0.0",
+  "description": "Caps for Codefellows",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401Repo/CAPS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401Repo/CAPS/issues"
+  },
+  "homepage": "https://github.com/401Repo/CAPS#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "faker": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.2"
+  }
+}
